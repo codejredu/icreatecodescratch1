@@ -1,12 +1,15 @@
 site_name: My Documentation
 site_url: https://your-username.github.io/your-repo-name/
 nav:
-  - ראשי: index.md
+  - "ראשי": index.md
+  - "מדריך ממשק": מדריך-ממשק.md
+  - "**( ) המנוע במהירות ( ) הלך למיקום ( )**": המנוע-במהירות-הלך-למיקום.md
+  - "**( ) מנוע במהירות ( ) סיבוב מהיר**": מנוע-במהירות-סיבוב-מהיר.md
 theme:
   name: material
   language: he
   font:
-    text: Heebo
+    text: Alef
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,15 +20,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: teal
+      primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: teal
-      accent: teal
+      primary: blue
+      accent: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
