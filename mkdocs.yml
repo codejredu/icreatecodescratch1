@@ -1,6 +1,29 @@
 site_name: My Documentation
 site_url: https://your-username.github.io/your-repo-name/
 nav:
-  - Home: index.md
+  - ראשי: index.md
 theme:
   name: material
+  language: he
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
