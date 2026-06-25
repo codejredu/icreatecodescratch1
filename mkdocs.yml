@@ -69,7 +69,6 @@ theme:
   font:
     text: Heebo
   features:
-    - navigation.tabs
     - navigation.sections
     - toc.integrate
     - navigation.top
