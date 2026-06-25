@@ -1,0 +1,6 @@
+site_name: My Documentation
+site_url: https://your-username.github.io/your-repo-name/
+nav:
+  - Home: index.md
+theme:
+  name: material
